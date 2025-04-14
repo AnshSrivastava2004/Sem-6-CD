@@ -1,0 +1,17 @@
+package main
+
+func main() {
+    var x int = 10;
+    var y float64 = 20.5;
+    x = x + 5;
+
+    if x > 10 {
+        print("x is large");
+    } else {
+        print("x is small");
+    }
+
+    for x > 0 {
+        x = x - 1;
+    }
+}
